@@ -1,0 +1,29 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .todo-item button {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .todo-item button:hover {
+    background-color: #ff6666;
+  }
+  

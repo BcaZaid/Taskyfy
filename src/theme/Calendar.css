@@ -1,0 +1,54 @@
+/* src/components/CalendarView.css */
+.calendar-view {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .date-picker-container {
+    margin-bottom: 20px;
+  }
+  
+  .date-picker-input {
+    width: 300px; /* Adjust the width of the input */
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .todos-list {
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .todo-item {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .no-todos-message {
+    color: #888;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
